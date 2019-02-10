@@ -1,0 +1,9 @@
+{
+  "name": "jsdoc-override-keeps-meta-plugin",
+  "version": "1.0.0",
+  "description": "Keep meta when overriding in JSDoc.",
+  "repository": "https://github.com/juliendargelos/jsdoc-override-keeps-meta-plugin",
+  "author": "Julien Dargelos",
+  "license": "MIT",
+  "main": "index.js"
+}
