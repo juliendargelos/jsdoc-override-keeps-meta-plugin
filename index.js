@@ -21,7 +21,7 @@ exports.handlers = {
       undocumented.forEach((parent, doclet) => {
         if(undocumented.has(parent)) return
         if(!parent.undocumented) {
-          parent = {...parent}
+          parent = JSON.parse(JSON.stringify(parent))
           delete parent.meta
           delete parent.name
           delete parent.longname
